@@ -30,19 +30,19 @@ In the folder `zippedData` are movie datasets from:
 * `bom.movie_gross.csv.gz`
   * Compressed CSV file 
 
-### Research Finding
-![alt text](image-1.png)
+### Visualizations
+## Bar Graph of Top10 Genres with Highest Rates
 The graph shows that News, Documentary and Biography are the top-rated genres on average, with News having the highest average rating of 7.13. 
 This suggests that audiences tend to favor movies in these genres in terms of quality. 
 Genres like Reality_TV, Horror and Adult while popular, have slightly lower average ratings among the top 10.
 
-![alt text](image-2.png)
+## Bar Graph of Top 10 most popular genres
 Genres like Adventure, Sci-Fi and Fantasy dominate audience attention and generate the highest average votes per movie.
 Genres like Documentary are have low average votes or have smaller audiences even if there are many movies.
 This can guide studios on which genres have both high engagement and high potential for audience reach.
 The studio can balance high-reach genres with niche genres to diversify content and capture both mass and loyal niche audiences.
 
-![alt text](image-3.png)
+## Scatter plot of number of movies against number of votes
 There is a strong positive relationship(0.79) between the number of movies and the number of votes
 This means that the number of movies produced influence the number of votes.
 
@@ -52,14 +52,18 @@ Atleast one studio has a difference in the mean if the gross income.
 Concluding that the type of films the best performing studios produce have a higher income
 
 
-![alt text](image-4.png)
+## Trendline of gross total revenue between 2010-2018
 The high performance in 2016 and 2017 suggests that the industry is still capable of generating massive revenue.
 
-![alt text](image-5.png)
+## Regression plot of the domestic income vs the foreign income
 There is a strong positive correlation between domestic and foreign market (0.79)
 The studio can safely assume that films successful locally are likely to perform well internationally and investment in global marketing can increase profit.
 
 With evidence from a hypothesis test and true means, global markets have higher revenue.
+
+##### These visualizations are included in the slides and notebook for detailed interpretation.
+
+## Conclusion and Recommendation 
 In conclusion, the datasets used are the im.db dataset and the box office mojo(bom.movie_gross.csv) dataset to conduct the analysis.
 1. **Based on the rating:**  
     News, Documentary and Biography are the top-rated genres on average, suggesting that audiences tend to favor movies in these genres in terms of quality. Genres like Reality_TV, Horror and Adult while popular, have slightly lower average ratings.
